@@ -12,6 +12,7 @@ public class TC_01_Homepage extends TestBase
 	public void TC01(String projectURL)
 	{
 		String Exp_Title = "Welcome, Please Sign Up!";
+		
 		objSeleutils.openURL(projectURL);
 		objSeleutils.click(objHomepage.registration);
 

@@ -72,7 +72,7 @@ public class SeleUtils
 		st.assertAll();
 	}
 
-	public static String getText(By locator)
+	public String getText(By locator)
 	{
 		WebElement webElement = driver.findElement(locator);
 		String strText = webElement.getText().trim();

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <parameter name="BrowserName" value="Chrome"/>
+  <parameter name="projectURL" value="http://yattedup.sigmasolve.net/"/>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="tEstCase.TC_01_Homepage">
+        <methods>
+          <include name="Openbrowser"/>
+          <include name="TC02"/>
+          <include name="TC01"/>
+        </methods>
+      </class> <!-- tEstCase.TC_01_Homepage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

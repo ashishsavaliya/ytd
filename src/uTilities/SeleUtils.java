@@ -15,7 +15,7 @@ import org.testng.annotations.BeforeSuite;
 import org.testng.annotations.Parameters;
 import org.testng.asserts.SoftAssert;
 
-public class SeleUtils
+public class SeleUtils extends ExcelUtils
 {
 	public static WebDriver driver;
 
@@ -111,5 +111,5 @@ public class SeleUtils
 	public void closeBrowser()
 	{
 		driver.quit();
-	}
+	}	
 }
